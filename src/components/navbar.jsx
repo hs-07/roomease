@@ -2,7 +2,7 @@ import React from "react";
 
 const navbar = () => {
   return (
-    <div className="flex w-full justify-between px-4 md:px-20 py-4 sticky bg-white shadow-md top-0">
+    <div className="flex w-full justify-between px-4 md:px-20 py-4 sticky bg-white shadow-md top-0 z-[9999]">
       <div className="flex gap-2 items-center">
         <img src="/logo.jpg" alt="logo" className="w-10 h-10" />
         <span className="text-primary font-semibold md:text-xl">Roomease</span>
