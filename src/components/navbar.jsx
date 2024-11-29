@@ -7,11 +7,14 @@ const navbar = () => {
         <img src="/logo.jpg" alt="logo" className="w-10 h-10" />
         <span className="text-primary font-semibold md:text-xl">Roomease</span>
       </div>
-      <div className="">
-        <button className="bg-primary px-4 py-2 rounded-lg text-white md:text-base text-sm">
-          Join the Waitlist
-        </button>
-      </div>
+      <a
+        className="bg-primary px-4 py-2 rounded-lg text-white md:text-base text-sm transition-all ease-in-out hover:scale-105 focus:scale-95"
+        href="https://forms.gle/hKiiCSdra1wzLpCi8"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Join the Waitlist
+      </a>
     </div>
   );
 };

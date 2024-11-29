@@ -11,7 +11,7 @@ export const MATCH_ROOMATE = [
   },
   {
     title: "Set your preferences",
-    para: "Customize your search with specific preferences like budget, location, and living habits to ensure the perfect match",
+    para: "Customize your search with specific preferences like budget, location, and living habits to ensure the perfect match.",
   },
   {
     title: "Swipe and Match",
